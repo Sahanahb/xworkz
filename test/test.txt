@@ -1,0 +1,148 @@
+1.(a)29
+2.(c)20
+3.(a)100
+4.(c)63
+5.(c)43
+6.(b)K
+7.(a)P
+8.(b)FR
+9.(c)bccab
+10.(a)GOV
+11. 2
+12. 38
+13. window
+14. sun
+15. BE
+
+Java Test
+
+1. java is a programming language is used for developing software applications. 
+   javac is a java compailer it consist of JDK,JVM and JRE it converts the java code into a bitecode.
+   
+2. JDK(Java Development Kit) is a software package that includes tools for developing, compiling, and running Java applications.
+   JRE (Java Runtime Environment) is a subset of JDK that provides the necessary runtime environment to execute Java applications.
+   jVM(java virtual machine) is a compailee wher it runs the program.
+   
+3. Declaration of array
+   DataType[] arryName = new DataType();
+   String[] name = new String();
+   
+4. Class is a blue print / design of an object whic contains variables and function.
+   Object is a real world entity.
+   Syntax of class :class FileName {
+					}
+   
+5. Array is a collection of homogenies element.
+
+6. java file is a program file where it is not directly understood by the computer.
+   class file is a bitcode of the java file it generate after the compailetion of the java file.
+   
+7. The length of the array is 6.
+
+8. Main method :
+		public static void main (String[] args) {
+		}
+	where public - access specifer
+		  Static - non access specifer
+		  void	 - return type
+		  main	 - method name 
+		  (String[] args) - parameters
+		  
+   method with return type :
+		static datatypeOfReturnValue methodName() {
+		
+		}
+
+9. java is a high level, general purpouse programming language developed by sun Microsystem it is platform independence, 
+   reilable and secure. java nees to have a type,it is the most widely used programminglanguage.
+   
+10. variable stores the address of the value in the momory location and it is alsa called as reference.
+    There are two type of variables :
+    Local variable : A local variable is a variable declared within a specific scope, such as a function or block, 
+	and can only be accessed within that scope.
+
+    Global variable : A global variable is a variable declared outside any specific scope, making it accessible throughout 
+	the entire program. 
+	
+11. A class variable is a variable that is shared among all instances of a class. 
+   It is defined within the class scope but outside any specific method.
+   
+12. Data type is a classification that determines the type of values that can be stored 
+   in a variable or used in an expression within a programming language.
+   
+   There are two types of data types
+   1. primitive data types
+   2. Non - primitive data types
+   
+   Primitive data types are 
+   
+   Integer: Represents whole numbers without fractional parts, such as 5 or -10.
+   Floating-point: Represents numbers with fractional parts, allowing for decimal values, like 3.14 or -2.5.
+   Boolean: Represents a logical value that can be either true or false.
+   Character: Represents a single character, such as 'A' or '$'.
+   Long: Represents whole numbers without fractional parts, we have to include 'L' in ending.
+   Double: Represents numbers with fractional parts, allowing for decimal values more than 8 decimal points.
+   Short: Represents whole numbers without fractional parts, from -127 to 128.
+   Byte: Represents whole numbers without fractional parts.
+   
+   Non Primitive data types
+   
+   String: Represents a sequence of characters, such as "Hello world!".
+   
+16. System.out.println() is statement where it prints the sentences or value that are written inside the paranthices.
+
+13. Object oriented programming
+	Platform Independence
+	Dynamic
+	High Performance
+	Autometic memory management
+	
+14. type of array's are:
+   
+   Single-Dimensional Array: This is the most common type of array in Java. 
+   It stores elements of the same data type in a linear fashion, forming a one-dimensional structure.
+    
+   Multidimensional Array: Java allows the creation of multidimensional arrays, such as 2D, 3D, or higher-dimensional arrays
+   
+   Array of Objects: In Java, arrays can also hold objects of a class. 
+   
+15. An "ArrayIndexOutOfBoundsException" is a runtime exception in Java that occurs when trying to access an array element using 
+    an index that is outside the valid range for the array.
+	
+17. In Java, the double equals operator (==) is used for equality comparison between two operands.
+
+18.In Java, the dot operator (.) is used to access members (fields and methods) of a class or object.
+
+19. The java.lang.Object class is the root of the  all class in Java. It serves as the base class for all other classes in Java, directly or indirectly. 
+  
+20. class 
+    private
+	protected
+	public
+	static
+	void 
+	for
+	else
+	while
+	throw
+	return
+	if
+
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
