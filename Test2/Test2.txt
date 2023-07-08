@@ -1,0 +1,122 @@
+APTITUDE
+
+ 1. (b) Brother
+ 2. (b) GrandFather
+ 3. (b) cousin
+ 4. (c) Son
+ 5. (b) GrandSon
+ 6. (c) X+A*Y
+ 7. 	R/S
+ 8. (a) Brother-in-law
+ 9. (a) father
+ 10.	S/R
+ 11.(a) 10Km 
+ 12.(d) West
+ 13.(c) North-East
+ 14.(c) south-west
+ 
+JAVA 
+
+1. compail time error (int cannot be converted to boolean).
+
+2. 10,110
+
+3. error (int cannot be converted to boolean).
+
+4. Main method is decleared as static because it needs to be directly accessible without creating an instance of the class, 
+   and it serves as the entry point of the program.
+
+5. class ArrayReversal {
+    public static void main(String[] args) {
+        int[] arr = {10, 45, 7, 9, 2};
+        
+        System.out.println("Original Array:");
+        printArray(arr);
+        
+        reverseArray(arr);
+        
+        System.out.println("\nReversed Array:");
+        printArray(arr);
+    }
+    
+    public static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+        
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            
+            start++;
+            end--;
+        }
+    }
+    
+    public static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+}
+
+6. class ArrayArrange {
+    public static void main(String[] args) {
+        int[] arr = {2, 5, 4, 8, 2, 3, 6, 2};
+
+        System.out.println("Original Array:");
+        printArray(arr);
+		
+        System.out.println("\nSorted Array (Descending Order) without Duplicates:");
+ 
+    }
+}
+
+7. Done
+
+8. this: this is a reference to the current object within a non-static method or constructor of the class.
+         It is primarily used to refer to instance variables, instance methods, or invoke constructors of the same class.
+		 
+   this(): this() is used to invoke one constructor from another constructor within the same class.
+           It is used for constructor chaining, where one constructor can call another constructor to perform initialization tasks.
+           The this() call must be the first line of code within the constructor and can have arguments to pass to the other constructor.
+		   
+9. class NumberSwap {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        
+        System.out.println("Before swapping: num1 = " + num1 + ", num2 = " + num2);
+        
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+
+        System.out.println("After swapping: num1 = " + num1 + ", num2 = " + num2);
+    }
+}
+
+10.i class Pattern {
+      public static void main(String[] args) {
+         System.out.println("   &         &   ");
+         System.out.println("        &        ");
+         System.out.println("   &         &   ");
+       }
+     }
+
+ii. class Pattern {
+      public static void main(String[] args) {
+          System.out.println("   %    %    %   ");
+          System.out.println("   %    &    %   ");
+          System.out.println("   %    %    %   ");
+      }
+    }
+
+iii.class Pattern {
+      public static void main(String[] args) {
+          System.out.println("   %    %    %   ");
+          System.out.println("   %         %   ");
+          System.out.println("   %    %    %   ");
+      }
+    }
