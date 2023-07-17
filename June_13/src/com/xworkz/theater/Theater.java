@@ -1,6 +1,5 @@
 package com.xworkz.theater;
 
-import com.xworkz.resort.ResortRoomType;
 
 public class Theater {
 	String name;
