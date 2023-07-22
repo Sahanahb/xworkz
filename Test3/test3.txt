@@ -1,0 +1,96 @@
+Java Test
+
+1. Syntax Error
+
+2. Error
+
+3. Error
+
+4. Length = 4, sum = 200.
+
+6. Method parameters are variables or values that are passed into a method when it's called. 
+   They define the data that the method operates on. 
+   Parameters are specified within parentheses following the method name and are separated by commas. 
+   
+7. Compile time polymorphism is achieved through method overloading and method overriding. 
+    Example:  
+				class Calculator {
+					int add(int a, int b) {
+						return a + b;
+					}
+
+					double add(double a, double b) {
+						return a + b;
+					}
+
+					public static void main(String[] args){
+						Calculator calculator = new Calculator();
+						int cal1 = calculator.add(2, 3);         
+						double cal2 = calculator.add(2.5, 3.5); 
+					}
+				}		
+
+8. It allows method to accept a variable number of arguments of the same type.
+   It simplifies method calls when the number of arguments is not known in advance.
+   
+9. A package is used to organize related classes, interfaces, and sub-packages into a hierarchical structure.
+	Single Type Import
+	Static Import
+			
+10. Constructor chaining : where one constructor calls another constructor within the same class or its superclass.
+	class Person {
+		String name;
+		int age;
+		String address;
+
+        Person(String name) {
+			this.name = name;
+		}
+
+
+		Person(String name, int age) {
+			this(name); 
+			this.age = age;
+			this.address = address;
+		}
+
+
+		Person(String name, int age, String address) {
+			this(name, age); 
+			this.address = address;
+		}
+}
+
+11. class FibonacciRecursion {
+
+		public static int fibonacci(int n) {
+			if (n <= 1) {
+				return n;
+			} else {
+				return fibonacci(n - 1) + fibonacci(n - 2);
+			}
+		}
+
+    public static void main(String[] args) {
+        int n = 10; 
+        System.out.println("Fibonacci sequence up to " + n + " numbers:");
+		for (int num = 0; num < n; num++) {
+            System.out.print(fibonacci(num) + " ");
+        }
+    }
+}
+
+14. An enum is a user-defined data type in programming languages that represents a set of named constants. 
+	It is a way to define a group of related symbolic values that are treated as discrete types. 
+	Enum are particularly useful when you have a fixed set of possible values that are related to each other and have specific meanings.
+	
+15. The JVM allocates memory for the object on the heap.
+	The new expression returns a reference to the object. 
+	
+16. Instance Variables
+	Member Functions
+	Constructors
+	Interfaces
+	Enums
+	Static Methods
+	
